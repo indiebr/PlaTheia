@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>PlaTheia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img id="logo_platheia" src="./images/Logo_PlaTheia-removebg-preview.png">
+
+        <div>
+            <a href="./index.html">Institucional</a>
+            <a href="./user_log_in.html">Cadastro de usuários</a>
+            <a href="./admin_log_in.html">Cadastro de administradores</a>
+            <a href="./event_log_in.html">Cadastro de eventos</a>
+        </div>
+    </header>
+
+    <div id="log_in_box">
+        <p>Cadastro de evento</p>
+
+        <label for="name">Nome do evento:</label><br>            
+        <input type="text" name="name" id="name"><br>
+
+        <label for="localization">Localização do evento:</label><br>            
+        <input type="text" name="localization" id="localization"><br>
+
+        <button type="submit" onclick="cadastroEvento()">Cadastrar</button>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>PlaTheia</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img id="logo_platheia" src="./images/Logo_PlaTheia-removebg-preview.png">
+
+        <div>
+            <a href="./index.html">Institucional</a>
+            <a href="./user_log_in.html">Cadastro de usuários</a>
+            <a href="./admin_log_in.html">Cadastro de administradores</a>
+            <a href="./event_log_in.html">Cadastro de eventos</a>
+        </div>
+    </header>
+
+    <div id="log_in_box">
+        <p>Cadastro de usuário</p>
+
+        <label for="name">Nome do usuário:</label><br>            
+        <input type="text" name="name" id="name"><br>
+
+        <label for="cpf">CPF:</label><br>            
+        <input type="number" name="cpf" id="cpf"><br>
+
+        <label for="phone">Telefone:</label><br>            
+        <input type="number" name="phone" id="phone"><br>
+
+        <label for="email">E-mail:</label><br>            
+        <input type="email" name="email" id="email"><br>
+
+        <label for="create_password">Criar senha:</label><br>            
+        <input type="password" name="create_password" id="password"><br>
+
+        <label for="confirm_password">Confirmar senha:</label><br>            
+        <input type="password" name="confirm_password" id="confirm_password"><br>
+
+        <button type="submit" onclick="cadastroUsuario()">Cadastrar</button>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
